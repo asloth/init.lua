@@ -1,6 +1,6 @@
 require("gera.remap")
-require("gera.lazy_init")
 require("gera.set")
+require("gera.lazy_init")
 vim.defer_fn(function()
   vim.notify("Hllow from gera", vim.log.levels.INFO, { timeout = 2000 })
 end, 500)
